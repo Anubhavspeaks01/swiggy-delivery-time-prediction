@@ -75,10 +75,8 @@ jobs:
       
       # Zip the required files
       - name: Zip files for deployment
-        if: success()
-        run: |
-            zip -r deployment.zip appspec.yml deploy/scripts/install_dependencies.sh deploy/scripts/start_docker.sh
-
+  run: |
+    zip -r deployment.zip .
 
       # Upload the ZIP file to S3
       - name: Upload ZIP to S3
