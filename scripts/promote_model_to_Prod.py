@@ -38,3 +38,4 @@ client.transition_model_version_stage(
     stage=promotion_stage,
     archive_existing_versions=True
 )
+# print the latest version in production
