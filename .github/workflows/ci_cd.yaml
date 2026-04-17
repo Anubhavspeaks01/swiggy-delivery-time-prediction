@@ -97,7 +97,7 @@ jobs:
             --application-name deliverytimeprediction \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --deployment-group-name deliverytimepredictiondeploymentgroup \
-            --s3-location bucket=deliverytimepredictiondeployment,key=deployment.zip,bundleType=zip \
+            --s3-location bucket=deliverytimepredictiondeploymentss,key=deployment.zip,bundleType=zip \
             --file-exists-behavior OVERWRITE \
             --region ap-south-1
 
