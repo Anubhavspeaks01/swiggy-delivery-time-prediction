@@ -17,7 +17,7 @@ def load_model_information(file_path):
     return run_info
 
 
-# get model name
+# get model name here
 model_name = load_model_information("run_information.json")["model_name"]
 stage = "Staging"
 
